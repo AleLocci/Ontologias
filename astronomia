@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-20/"
+     xml:base="http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-20/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:astronomia="http://www.astronomia.com/ontologies/astronomia.owl#">
+    <owl:Ontology rdf:about="http://www.astronomia.com/ontologies/astronomia.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasAneis -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasAneis">
+        <rdfs:comment>Possui aneis na sua orbitá.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasOrbitaEmTornoDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasOrbitaEmTornoDe">
+        <owl:inverseOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites">
+        <rdfs:comment>Possui Satelites.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasSatelitesArtificial -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelitesArtificial">
+        <rdfs:subPropertyOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites"/>
+        <rdfs:comment>Possui satelites artificiais.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasSatelitesNaturais -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelitesNaturais">
+        <rdfs:subPropertyOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites"/>
+        <rdfs:comment>Possui Satélites naturais (Luas).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasVida -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasVida">
+        <rdfs:comment>Suporta formas de vida.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:comment>O objeto x é orbitado pela estrela y. Ex: O sol é orbitado pela terra. A terra é orbitada pela LUa.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Amarelas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Amarelas">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Amarela</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Asteroides -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Asteroides"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Azuis -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Azuis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Azul</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Brancas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Brancas">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Branca</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#BuracosNegros -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#BuracosNegros"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Cometas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Cometas"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Elípticas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Elípticas">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Galaxias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Espirais -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Espirais">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Galaxias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Estrelas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Galaxias -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Galaxias"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Gasosos -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Gasosos">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Irregulares -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Irregulares">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Galaxias"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Meteoritos -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Meteoritos"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Nêutrons -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Nêutrons">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Planetas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Rochosos -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Rochosos">
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#SatelitesArtificiais -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SatelitesArtificiais"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#SatelitesNaturais -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SatelitesNaturais"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Vermelhas -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Vermelhas">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éUmaEstrelaDaCor"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Vermelha</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Betelgeuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Betelgeuse">
+        <astronomia:éUmaEstrelaDaCor>Vermelha</astronomia:éUmaEstrelaDaCor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Rigel -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Rigel">
+        <astronomia:éUmaEstrelaDaCor>Azul</astronomia:éUmaEstrelaDaCor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Sol -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Sol">
+        <astronomia:éLuminecente rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Sol"/>
+        <astronomia:éUmaEstrelaDaCor>Amarela</astronomia:éUmaEstrelaDaCor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Amarelas"/>
+            <rdf:Description rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Azuis"/>
+            <rdf:Description rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Brancas"/>
+            <rdf:Description rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Vermelhas"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
