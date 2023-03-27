@@ -1,0 +1,930 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31">
+    <Prefix name="" IRI="http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bias_Needed_In_a_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calling_Unsupported_Operations_On_CUDA_Tensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character_Econding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Batching_Required"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Pading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Shuffing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decision_Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deprecated_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discarding_Important_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecolding_of_Categorical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epsilon_or_Adam_Optimizer_Too_Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPU_Tensor_is_Used_Insted_of_CPU_Tensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPU_Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperparameters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incompatible_Tensor_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incorrect_State_Sharing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Scaling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpolation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_Dimensions_Mismatch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Quality_Tranning_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_API_Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Argument_Scoping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Average_Pooling_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Data_Argumantation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Dence_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Destination_GPU_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Dropout_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Flatten_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Global_Variables_Initialisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Lose_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Making_of_Invalid_Values_to_Zero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Normalization_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Preprocessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Relu_Activation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Softmax_Activation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Softmax_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Squeeze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Transfer_of_Data_to_GPU_Divece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Validation_Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_to_Big_to_Fit_Into_Avaliable_Memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multiple_Initiallisations_of_CNN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neural_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_Enough_Tranning_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Optimizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overlaping_Output_Classes_In_Tranning_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oversampling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Padding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pixel_Ecoding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positional_Encoding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redundant_Data_Argumentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redundant_Softmax_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reference_to_No-existing_Checkpoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resize_of_Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Small_Range_of_Values_for_a_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Batch_Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Hyperparameters_Tuning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Learning_Rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Network_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Number_Of_Neurons_In_The_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suboptimal_Number_of_Epochs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subsampling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tensor_Shape_Mismatch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text_Segmentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Too_Many_Output_Categories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning_Data_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unbalanced_Tranning_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wromg_Usage_of_Praceholder_Restoration_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_API_Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Data_Parallelism_od_CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Defiened_Output_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Defined_Input_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Filler_Size_for_a_Covulutional_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Format_of_Passed_Weights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Indexing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Input_Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Input_Format_RNN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Input_Sample_Size_For_Linear_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Labels_for_Tranning_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Layer_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Loss_Function_Calculation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Management_of_Memory_Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Model_Initialisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Network_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Optimisation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Performance_Metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Position_Of_Data_Shuffe_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Processing_Normalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Processing_Padding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Reference_To_Operational_Graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Reference_toGPU_Divece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Selection_Of_Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Selection_of_Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Selection_of_Loss_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Shape_Of_Input_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Shape_Of_Input_Data_For_a_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Shape_of_Input_Data_For_a_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Tipy_Of_Activation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Transfer_to_Tensor_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Type_of_Input_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Type_of_Input_Data_For_a_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Type_of_Input_Data_For_a_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Usage_Of_Image_Decoding_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Weights_Initialisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_of_Pulling_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrongly_Implemented_Data_Balching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incorrect_Train/Test_Data_Split"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Regularization_(Loss_and_Weight)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tensors_&amp;_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validation/Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Amount_&amp;_Type_Of_Pooling_In_Covulational_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Defined_Input_&amp;_Output_Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Activation_Function"/>
+        <Class IRI="#Layers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bias_Needed_In_a_Layer"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calling_Unsupported_Operations_On_CUDA_Tensors"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Character_Econding"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Batching_Required"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Pading"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Shuffing"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decision_Tree"/>
+        <Class IRI="#Data_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deprecated_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discarding_Important_Feature"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecolding_of_Categorical"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epsilon_or_Adam_Optimizer_Too_Low"/>
+        <Class IRI="#Optimizer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Error"/>
+        <Class IRI="#Software_Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Failure"/>
+        <Class IRI="#Software_Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fault"/>
+        <Class IRI="#Software_Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPU_Tensor_is_Used_Insted_of_CPU_Tensor"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperparameters"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incompatible_Tensor_Type"/>
+        <Class IRI="#Wrong_Input_Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorrect_State_Sharing"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Scaling"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpolation"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_Dimensions_Mismatch"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_Properties"/>
+        <Class IRI="#Layers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layers"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_Function"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Quality_Tranning_Data"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_API_Call"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Argument_Scoping"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Average_Pooling_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Data_Argumantation"/>
+        <Class IRI="#Traning_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Dence_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Destination_GPU_Device"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Dropout_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Flatten_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Global_Variables_Initialisation"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Lose_Function"/>
+        <Class IRI="#Loss_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Making_of_Invalid_Values_to_Zero"/>
+        <Class IRI="#Loss_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Normalization_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Preprocessing"/>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Relu_Activation_Function"/>
+        <Class IRI="#Activation_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Softmax_Activation_Function"/>
+        <Class IRI="#Activation_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Softmax_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Squeeze"/>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Transfer_of_Data_to_GPU_Divece"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Validation_Set"/>
+        <Class IRI="#Validation/Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model_to_Big_to_Fit_Into_Avaliable_Memory"/>
+        <Class IRI="#Traning_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multiple_Initiallisations_of_CNN"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neural_Network"/>
+        <Class IRI="#Data_Learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normalization"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_Enough_Tranning_Data"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Optimizer"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overlaping_Output_Classes_In_Tranning_Data"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oversampling"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Padding"/>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pixel_Ecoding"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positional_Encoding"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processing_of_Training_Data"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redundant_Data_Argumentation"/>
+        <Class IRI="#Traning_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redundant_Softmax_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reference_to_No-existing_Checkpoint"/>
+        <Class IRI="#Traning_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resize_of_Image"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Small_Range_of_Values_for_a_Feature"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Batch_Size"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Hyperparameters_Tuning"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Learning_Rate"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Network_Structure"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Number_Of_Neurons_In_The_Layer"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboptimal_Number_of_Epochs"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subsampling"/>
+        <Class IRI="#Missing_Preprocessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tensor_Shape_Mismatch"/>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text_Segmentation"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Too_Many_Output_Categories"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traning_Data_Quality"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traning_Process"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unbalanced_Tranning_Data"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wromg_Usage_of_Praceholder_Restoration_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_API_Usage"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Data_Parallelism_od_CPU"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Defiened_Output_Shape"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Defined_Input_Shape"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Filler_Size_for_a_Covulutional_Layer"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Format_of_Passed_Weights"/>
+        <Class IRI="#Wrong_Input_Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Indexing"/>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Input"/>
+        <Class IRI="#Tensors_&amp;_Inputs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Input_Format"/>
+        <Class IRI="#Wrong_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Input_Format_RNN"/>
+        <Class IRI="#Wrong_Input_Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Input_Sample_Size_For_Linear_Layer"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Labels_for_Tranning_Data"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Layer_Type"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Loss_Function_Calculation"/>
+        <Class IRI="#Loss_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Management_of_Memory_Resources"/>
+        <Class IRI="#Traning_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Model_Initialisation"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Network_Architecture"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Optimisation_Function"/>
+        <Class IRI="#Optimizer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Performance_Metric"/>
+        <Class IRI="#Validation/Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Position_Of_Data_Shuffe_Operation"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Processing"/>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Processing_Normalization"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Processing_Padding"/>
+        <Class IRI="#Wrong_Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Reference_To_Operational_Graph"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Reference_toGPU_Divece"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Selection_Of_Model"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Selection_of_Features"/>
+        <Class IRI="#Traning_Data_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Selection_of_Loss_Function"/>
+        <Class IRI="#Loss_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Shape_Of_Input_Data"/>
+        <Class IRI="#Wrong_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Shape_Of_Input_Data_For_a_Layer"/>
+        <Class IRI="#Wrong_Shape_Of_Input_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Shape_of_Input_Data_For_a_Method"/>
+        <Class IRI="#Wrong_Shape_Of_Input_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Tensor_Shape"/>
+        <Class IRI="#Tensors_&amp;_Inputs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Tipy_Of_Activation_Function"/>
+        <Class IRI="#Activation_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Transfer_to_Tensor_Data"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Type_of_Input_Data"/>
+        <Class IRI="#Wrong_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Type_of_Input_Data_For_a_Layer"/>
+        <Class IRI="#Wrong_Type_of_Input_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Type_of_Input_Data_For_a_Method"/>
+        <Class IRI="#Wrong_Type_of_Input_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Usage_Of_Image_Decoding_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Weights_Initialisation"/>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_of_Pulling_Layer"/>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrongly_Implemented_Data_Balching"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorrect_Train/Test_Data_Split"/>
+        <Class IRI="#Validation/Testing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
+        <Class IRI="#Layers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Regularization_(Loss_and_Weight)"/>
+        <Class IRI="#Hyperparameters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model_type_&amp;_Properts"/>
+        <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation/Testing"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Amount_&amp;_Type_Of_Pooling_In_Covulational_Layer"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Defined_Input_&amp;_Output_Shape"/>
+        <Class IRI="#Layer_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

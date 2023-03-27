@@ -1,0 +1,658 @@
+Prefix(:=<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31>
+
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Bias_Needed_In_a_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Calling_Unsupported_Operations_On_CUDA_Tensors>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Character_Econding>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Batching_Required>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Learning>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Pading>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Shuffing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Decision_Tree>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Deprecated_API>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Discarding_Important_Feature>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Ecolding_of_Categorical>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incompatible_Tensor_Type>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_State_Sharing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Input_Scaling>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Interpolation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Dimensions_Mismatch>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Low_Quality_Tranning_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_API_Call>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Argument_Scoping>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Average_Pooling_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Data_Argumantation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dence_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Destination_GPU_Device>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dropout_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Flatten_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Global_Variables_Initialisation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Lose_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Making_of_Invalid_Values_to_Zero>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Normalization_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Relu_Activation_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Activation_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Squeeze>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Transfer_of_Data_to_GPU_Divece>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Validation_Set>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_to_Big_to_Fit_Into_Avaliable_Memory>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Multiple_Initiallisations_of_CNN>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Neural_Network>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Normalization>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Not_Enough_Tranning_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Other>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Overlaping_Output_Classes_In_Tranning_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Oversampling>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Padding>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Pixel_Ecoding>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Positional_Encoding>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Data_Argumentation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Softmax_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Reference_to_No-existing_Checkpoint>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Resize_of_Image>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Small_Range_of_Values_for_a_Feature>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Batch_Size>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Hyperparameters_Tuning>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Learning_Rate>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Network_Structure>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_Of_Neurons_In_The_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_of_Epochs>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Subsampling>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensor_Shape_Mismatch>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Text_Segmentation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Too_Many_Output_Categories>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Data_Parallelism_od_CPU>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defiened_Output_Shape>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_Shape>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Filler_Size_for_a_Covulutional_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Format_of_Passed_Weights>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Indexing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format_RNN>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Sample_Size_For_Linear_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Labels_for_Tranning_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Layer_Type>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Loss_Function_Calculation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Management_of_Memory_Resources>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Model_Initialisation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Network_Architecture>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Optimisation_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Performance_Metric>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Position_Of_Data_Shuffe_Operation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Normalization>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Padding>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_To_Operational_Graph>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_toGPU_Divece>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_Of_Model>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Features>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Loss_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data_For_a_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_of_Input_Data_For_a_Method>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tipy_Of_Activation_Function>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Transfer_to_Tensor_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Method>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_of_Pulling_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Balching>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_Train/Test_Data_Split>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Regularization_(Loss_and_Weight)>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensors_&_Inputs>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Amount_&_Type_Of_Pooling_In_Covulational_Layer>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_&_Output_Shape>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)>))
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Bias_Needed_In_a_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Bias_Needed_In_a_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Bias_Needed_In_a_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Calling_Unsupported_Operations_On_CUDA_Tensors> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Calling_Unsupported_Operations_On_CUDA_Tensors>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Calling_Unsupported_Operations_On_CUDA_Tensors> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Character_Econding> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Character_Econding>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Character_Econding> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Batching_Required> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Batching_Required>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Batching_Required> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Pading> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Pading>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Pading> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Shuffing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Shuffing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Shuffing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Decision_Tree> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Decision_Tree>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Decision_Tree> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Learning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Deprecated_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Deprecated_API>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Deprecated_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Discarding_Important_Feature> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Discarding_Important_Feature>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Discarding_Important_Feature> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Ecolding_of_Categorical> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Ecolding_of_Categorical>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Ecolding_of_Categorical> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incompatible_Tensor_Type> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incompatible_Tensor_Type>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incompatible_Tensor_Type> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_State_Sharing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_State_Sharing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_State_Sharing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Input_Scaling> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Input_Scaling>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Input_Scaling> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Interpolation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Interpolation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Interpolation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Dimensions_Mismatch> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Dimensions_Mismatch>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Dimensions_Mismatch> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Low_Quality_Tranning_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Low_Quality_Tranning_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Low_Quality_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_API_Call> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_API_Call>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_API_Call> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Argument_Scoping> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Argument_Scoping>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Argument_Scoping> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Average_Pooling_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Average_Pooling_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Average_Pooling_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Data_Argumantation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Data_Argumantation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Data_Argumantation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dence_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dence_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dence_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Destination_GPU_Device> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Destination_GPU_Device>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Destination_GPU_Device> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dropout_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dropout_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Dropout_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Flatten_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Flatten_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Flatten_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Global_Variables_Initialisation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Global_Variables_Initialisation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Global_Variables_Initialisation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Lose_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Lose_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Lose_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Making_of_Invalid_Values_to_Zero> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Making_of_Invalid_Values_to_Zero>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Making_of_Invalid_Values_to_Zero> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Normalization_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Normalization_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Normalization_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Relu_Activation_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Relu_Activation_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Relu_Activation_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Activation_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Activation_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Activation_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Softmax_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Squeeze> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Squeeze>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Squeeze> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Transfer_of_Data_to_GPU_Divece> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Transfer_of_Data_to_GPU_Divece>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Transfer_of_Data_to_GPU_Divece> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Validation_Set> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Validation_Set>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Validation_Set> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_to_Big_to_Fit_Into_Avaliable_Memory> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_to_Big_to_Fit_Into_Avaliable_Memory>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_to_Big_to_Fit_Into_Avaliable_Memory> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Multiple_Initiallisations_of_CNN> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Multiple_Initiallisations_of_CNN>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Multiple_Initiallisations_of_CNN> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Neural_Network> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Neural_Network>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Neural_Network> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Data_Learning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Normalization> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Normalization>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Normalization> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Not_Enough_Tranning_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Not_Enough_Tranning_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Not_Enough_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Other> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Other>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Other> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Overlaping_Output_Classes_In_Tranning_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Overlaping_Output_Classes_In_Tranning_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Overlaping_Output_Classes_In_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Oversampling> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Oversampling>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Oversampling> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Padding> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Padding>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Padding> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Pixel_Ecoding> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Pixel_Ecoding>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Pixel_Ecoding> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Positional_Encoding> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Positional_Encoding>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Positional_Encoding> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Data_Argumentation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Data_Argumentation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Data_Argumentation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Softmax_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Softmax_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Redundant_Softmax_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Reference_to_No-existing_Checkpoint> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Reference_to_No-existing_Checkpoint>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Reference_to_No-existing_Checkpoint> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Resize_of_Image> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Resize_of_Image>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Resize_of_Image> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Small_Range_of_Values_for_a_Feature> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Small_Range_of_Values_for_a_Feature>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Small_Range_of_Values_for_a_Feature> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Batch_Size> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Batch_Size>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Batch_Size> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Hyperparameters_Tuning> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Hyperparameters_Tuning>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Hyperparameters_Tuning> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Learning_Rate> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Learning_Rate>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Learning_Rate> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Network_Structure> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Network_Structure>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Network_Structure> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_Of_Neurons_In_The_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_Of_Neurons_In_The_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_Of_Neurons_In_The_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_of_Epochs> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_of_Epochs>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Number_of_Epochs> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Subsampling> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Subsampling>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Subsampling> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Preprocessing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensor_Shape_Mismatch> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensor_Shape_Mismatch>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensor_Shape_Mismatch> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Text_Segmentation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Text_Segmentation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Text_Segmentation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Too_Many_Output_Categories> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Too_Many_Output_Categories>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Too_Many_Output_Categories> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Data_Parallelism_od_CPU> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Data_Parallelism_od_CPU>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Data_Parallelism_od_CPU> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defiened_Output_Shape> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defiened_Output_Shape>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defiened_Output_Shape> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_Shape> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_Shape>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_Shape> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Filler_Size_for_a_Covulutional_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Filler_Size_for_a_Covulutional_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Filler_Size_for_a_Covulutional_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Format_of_Passed_Weights> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Format_of_Passed_Weights>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Format_of_Passed_Weights> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Indexing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Indexing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Indexing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensors_&_Inputs>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format_RNN> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format_RNN>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format_RNN> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Format>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Sample_Size_For_Linear_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Sample_Size_For_Linear_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input_Sample_Size_For_Linear_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Labels_for_Tranning_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Labels_for_Tranning_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Labels_for_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Layer_Type> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Layer_Type>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Layer_Type> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Loss_Function_Calculation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Loss_Function_Calculation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Loss_Function_Calculation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Management_of_Memory_Resources> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Management_of_Memory_Resources>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Management_of_Memory_Resources> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Model_Initialisation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Model_Initialisation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Model_Initialisation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Network_Architecture> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Network_Architecture>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Network_Architecture> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Optimisation_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Optimisation_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Optimisation_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Performance_Metric> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Performance_Metric>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Performance_Metric> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Position_Of_Data_Shuffe_Operation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Position_Of_Data_Shuffe_Operation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Position_Of_Data_Shuffe_Operation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Processing_of_Training_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Normalization> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Normalization>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Normalization> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Padding> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Padding>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing_Padding> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Processing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_To_Operational_Graph> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_To_Operational_Graph>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_To_Operational_Graph> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_toGPU_Divece> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_toGPU_Divece>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Reference_toGPU_Divece> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_Of_Model> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_Of_Model>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_Of_Model> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Features> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Features>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Features> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Loss_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Loss_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Selection_of_Loss_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Loss_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data_For_a_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data_For_a_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data_For_a_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_of_Input_Data_For_a_Method> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_of_Input_Data_For_a_Method>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_of_Input_Data_For_a_Method> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Shape_Of_Input_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tensor_Shape> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Tensors_&_Inputs>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tipy_Of_Activation_Function> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tipy_Of_Activation_Function>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Tipy_Of_Activation_Function> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Activation_Function>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Transfer_to_Tensor_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Transfer_to_Tensor_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Transfer_to_Tensor_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Input>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Method> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Method>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Method> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_of_Pulling_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_of_Pulling_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_of_Pulling_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Balching> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Balching>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Balching> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_Train/Test_Data_Split> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_Train/Test_Data_Split>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Incorrect_Train/Test_Data_Split> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing/Redundant/Wrong_Laqyer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layers>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Regularization_(Loss_and_Weight)> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Regularization_(Loss_and_Weight)>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Missing_Regularization_(Loss_and_Weight)> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Hyperparameters>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model_type_&_Properts> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Model>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Validation/Testing> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Amount_&_Type_Of_Pooling_In_Covulational_Layer> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Amount_&_Type_Of_Pooling_In_Covulational_Layer>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Amount_&_Type_Of_Pooling_In_Covulational_Layer> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_&_Output_Shape> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_&_Output_Shape>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defined_Input_&_Output_Shape> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Layer_Properties>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Usage>)
+
+
+)
