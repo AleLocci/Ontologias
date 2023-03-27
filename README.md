@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-  <title>Ontologies</title>
+  Ontologies
 </head>
 <body>
 
