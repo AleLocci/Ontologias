@@ -75,6 +75,7 @@ Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitl
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Reference_to_No-existing_Checkpoint>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Resize_of_Image>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Small_Range_of_Values_for_a_Feature>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Batch_Size>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Hyperparameters_Tuning>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Suboptimal_Learning_Rate>))
@@ -192,6 +193,18 @@ SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-onto
 # Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low>)
 
 SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Epsilon_or_Adam_Optimizer_Too_Low> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Optimizer>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Error> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Failure> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Fault> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Softwre_Testing>)
 
 # Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#GPU_Tensor_is_Used_Insted_of_CPU_Tensor>)
 
