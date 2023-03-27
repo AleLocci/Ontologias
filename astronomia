@@ -30,15 +30,6 @@
     
 
 
-    <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasOrbitaEmTornoDe -->
-
-    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasOrbitaEmTornoDe">
-        <owl:inverseOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites -->
 
     <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#hasSatelites">
@@ -73,18 +64,27 @@
     
 
 
-    <!-- http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor -->
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#tipoGasoso -->
 
-    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#isOrbitadaPor">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:comment>O objeto x é orbitado pela estrela y. Ex: O sol é orbitado pela terra. A terra é orbitada pela LUa.</rdfs:comment>
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#tipoGasoso">
+        <rdfs:subPropertyOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#tipoPlaneta"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente -->
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#tipoPlaneta -->
 
-    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente"/>
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#tipoPlaneta">
+        <rdfs:range rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#tipoRochoso -->
+
+    <owl:ObjectProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#tipoRochoso">
+        <rdfs:subPropertyOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#tipoPlaneta"/>
+    </owl:ObjectProperty>
     
 
 
@@ -96,6 +96,26 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#orbitaEstrela -->
+
+    <owl:DatatypeProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#orbitaEstrela"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#sistemaDaEstrela -->
+
+    <owl:DatatypeProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#sistemaDaEstrela">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente"/>
     
 
 
@@ -221,14 +241,7 @@
 
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Estrelas -->
 
-    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#éLuminecente"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Estrelas"/>
     
 
 
@@ -241,6 +254,12 @@
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Gasosos -->
 
     <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Gasosos">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#tipoGasoso"/>
+                <owl:someValuesFrom rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
     </owl:Class>
     
@@ -270,13 +289,26 @@
 
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Planetas -->
 
-    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Planetas">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#tipoPlaneta"/>
+                <owl:someValuesFrom rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Rochosos -->
 
     <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Rochosos">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#tipoRochoso"/>
+                <owl:someValuesFrom rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
     </owl:Class>
     
@@ -297,6 +329,87 @@
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar -->
 
     <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar"/>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#SistemaRigel -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SistemaRigel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#orbitaEstrela"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Rigel</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#sistemaDaEstrela"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Rigel</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar"/>
+        <owl:disjointWith rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#SistemaSolar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#SistemaSolar -->
+
+    <owl:Class rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#SistemaSolar">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#orbitaEstrela"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Sol</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#sistemaDaEstrela"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:pattern>Sol</xsd:pattern>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:onDataRange>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#SistemaEstelar"/>
+    </owl:Class>
     
 
 
@@ -342,9 +455,40 @@
     
 
 
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Jupiter -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Jupiter">
+        <rdf:type rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+        <astronomia:tipoGasoso rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Jupiter"/>
+        <astronomia:orbitaEstrela>Sol</astronomia:orbitaEstrela>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Marte -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Marte">
+        <rdf:type rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+        <astronomia:tipoRochoso rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Marte"/>
+        <astronomia:orbitaEstrela>Sol</astronomia:orbitaEstrela>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#PLanetaX -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#PLanetaX">
+        <rdf:type rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+        <astronomia:tipoRochoso rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#PLanetaX"/>
+        <astronomia:orbitaEstrela>Rigel</astronomia:orbitaEstrela>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Rigel -->
 
     <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Rigel">
+        <astronomia:sistemaDaEstrela>Rigel</astronomia:sistemaDaEstrela>
         <astronomia:éUmaEstrelaDaCor>Azul</astronomia:éUmaEstrelaDaCor>
     </owl:NamedIndividual>
     
@@ -353,8 +497,19 @@
     <!-- http://www.astronomia.com/ontologies/astronomia.owl#Sol -->
 
     <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Sol">
-        <astronomia:éLuminecente rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Sol"/>
+        <astronomia:sistemaDaEstrela>Sol</astronomia:sistemaDaEstrela>
+        <astronomia:éLuminecente>&quot;true&quot;</astronomia:éLuminecente>
         <astronomia:éUmaEstrelaDaCor>Amarela</astronomia:éUmaEstrelaDaCor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.astronomia.com/ontologies/astronomia.owl#Terra -->
+
+    <owl:NamedIndividual rdf:about="http://www.astronomia.com/ontologies/astronomia.owl#Terra">
+        <rdf:type rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Planetas"/>
+        <astronomia:tipoRochoso rdf:resource="http://www.astronomia.com/ontologies/astronomia.owl#Terra"/>
+        <astronomia:orbitaEstrela>Sol</astronomia:orbitaEstrela>
     </owl:NamedIndividual>
     
 

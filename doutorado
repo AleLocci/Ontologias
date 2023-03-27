@@ -19,7 +19,22 @@
         <Class IRI="#Activation_Function"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Calling_Unsupported_Operations_On_CUDA_Tensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deprecated_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPU_Tensor_is_Used_Insted_of_CPU_Tensor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#GPU_Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hyperparameters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incorrect_State_Sharing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Layer_Properties"/>
@@ -28,10 +43,52 @@
         <Class IRI="#Layers"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Loss_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_API_Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Argument_Scoping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Destination_GPU_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Global_Variables_Initialisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Preprocessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Missing_Transfer_of_Data_to_GPU_Divece"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Model"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Optimizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Traning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning_Data_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traning_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wromg_Usage_of_Praceholder_Restoration_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_API_Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Data_Parallelism_od_CPU"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Wrong_Input"/>
@@ -40,13 +97,34 @@
         <Class IRI="#Wrong_Input_Format"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Wrong_Position_Of_Data_Shuffe_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Reference_To_Operational_Graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Reference_toGPU_Divece"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Wrong_Shape_Of_Input_Data"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Wrong_Tensor_Shape"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Wrong_Transfer_to_Tensor_Data"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Wrong_Type_of_Input_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrong_Usage_Of_Image_Decoding_API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
@@ -56,18 +134,100 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Tensors_&amp;_Inputs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validation/Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Activation_Function"/>
         <Class IRI="#Layers"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Calling_Unsupported_Operations_On_CUDA_Tensors"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deprecated_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPU_Tensor_is_Used_Insted_of_CPU_Tensor"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hyperparameters"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incorrect_State_Sharing"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Layer_Properties"/>
         <Class IRI="#Layers"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Layers"/>
         <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_Function"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_API_Call"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Argument_Scoping"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Destination_GPU_Device"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Global_Variables_Initialisation"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Preprocessing"/>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Missing_Transfer_of_Data_to_GPU_Divece"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Optimizer"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processing_of_Training_Data"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traning_Data_Quality"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traning_Process"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wromg_Usage_of_Praceholder_Restoration_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_API_Usage"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Data_Parallelism_od_CPU"/>
+        <Class IRI="#GPU_Usage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Wrong_Input"/>
@@ -78,6 +238,22 @@
         <Class IRI="#Wrong_Input"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Wrong_Position_Of_Data_Shuffe_Operation"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Processing"/>
+        <Class IRI="#Processing_of_Training_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Reference_To_Operational_Graph"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Reference_toGPU_Divece"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Wrong_Shape_Of_Input_Data"/>
         <Class IRI="#Wrong_Input"/>
     </SubClassOf>
@@ -86,8 +262,20 @@
         <Class IRI="#Tensors_&amp;_Inputs"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Wrong_Transfer_to_Tensor_Data"/>
+        <Class IRI="#GPU_Usage"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Wrong_Type_of_Input_Data"/>
         <Class IRI="#Wrong_Input"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrong_Usage_Of_Image_Decoding_API"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convertion_to_CUDA_Tensor_Insade_Tranning/Test_Loop_icop"/>
+        <Class IRI="#GPU_Usage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Missing/Redundant/Wrong_Laqyer"/>
@@ -96,6 +284,14 @@
     <SubClassOf>
         <Class IRI="#Model_type_&amp;_Properts"/>
         <Class IRI="#Model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation/Testing"/>
+        <Class IRI="#Traning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrongly_Implemented_Data_Transfer_Function_(CPU_GPU)"/>
+        <Class IRI="#GPU_Usage"/>
     </SubClassOf>
 </Ontology>
 
