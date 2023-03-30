@@ -90,7 +90,6 @@ Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitl
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Process>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data>))
-Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Data_Parallelism_od_CPU>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Defiened_Output_Shape>))
@@ -129,6 +128,7 @@ Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitl
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Layer>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Type_of_Input_Data_For_a_Method>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API>))
+Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_of_Praceholder_Restoration_API>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_of_Pulling_Layer>))
 Declaration(Class(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrongly_Implemented_Data_Balching>))
@@ -450,10 +450,6 @@ SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-onto
 
 SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Unbalanced_Tranning_Data> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Traning_Data_Quality>)
 
-# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API>)
-
-SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wromg_Usage_of_Praceholder_Restoration_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
-
 # Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage>)
 
 SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_API_Usage> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
@@ -605,6 +601,10 @@ SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-onto
 # Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API>)
 
 SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_Of_Image_Decoding_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
+
+# Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_of_Praceholder_Restoration_API> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_of_Praceholder_Restoration_API>)
+
+SubClassOf(<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Usage_of_Praceholder_Restoration_API> <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#API>)
 
 # Class: <http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation> (<http://www.semanticweb.org/alexandre/ontologies/2023/2/untitled-ontology-31#Wrong_Weights_Initialisation>)
 
