@@ -1,0 +1,31 @@
+"Term Name","Definition"
+"","Synonym: weak AI"
+"natural language 
+processing (NLP)","A field of computing that provides the ability to read, understand, and 
+derive meaning from natural languages"
+"neural network","A network of primitive processing elements connected by weighted 
+links with adjustable weights, in which each element produces a value 
+by applying a nonlinear function to its input values, and transmits it to 
+other elements or presents it as an output value (ISO/IEC 2382) 
+Synonym: artificial neural network"
+"neural network trojan","A vulnerability injected into a neural network using a data poisoning 
+attack with the intent of exploiting it later"
+"neuromorphic processor","An integrated circuit designed to mimic the biological neurons of the 
+human brain"
+"neuron","A node in a neural network, usually receiving multiple input values and 
+generating an activation value"
+"noise","A distortion or corruption in data"
+"non-deterministic system","A system which will not always produce the same set of outputs and 
+final state given a particular set of inputs and starting state"
+"outlier","An observation that lies outside the overall pattern of the data 
+distribution"
+"overfitting","The generation of an ML model that corresponds too closely to the 
+training dataset, resulting in a model that finds it difficult to generalize 
+to new data (After ISO/IEC TR 29119-11)"
+"perceptron","A neural network with just one layer and one neuron"
+"precision","An ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of predicted positives that were correct 
+(After ISO/IEC TR 29119-11)"
+"pre-trained model","An ML model already trained when it was obtained"
+"probabilistic system","A system whose behavior is described in terms of probabilities; hence 
+its outputs cannot be perfectly predicted"

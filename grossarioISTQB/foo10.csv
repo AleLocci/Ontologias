@@ -1,0 +1,12 @@
+"Term Name","Definition"
+"underfitting","The generation of an ML model that does not reflect the underlying 
+trend of the training dataset, resulting in a model that finds it difficult to 
+make accurate predictions (ISO/IEC TR 29119-11)"
+"unsupervised learning","Training an ML model from input data using an unlabeled dataset"
+"validation dataset","A dataset used to evaluate a trained ML model with the purpose of 
+tuning the model"
+"von Neumann architecture","A computer architecture which consists of five main components: 
+memory, a central processing unit, a control unit, input and output"
+"weight","An internal variable of a connection between neurons in a neural 
+network that affects how it computes its outputs and that changes as 
+the neural network is trained"

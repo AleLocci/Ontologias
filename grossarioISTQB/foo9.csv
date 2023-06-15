@@ -1,0 +1,31 @@
+"Term Name","Definition"
+"safety","The expectation that a system does not, under defined conditions, lead 
+to a state in which human life, health, property, or the environment is 
+endangered (ISO/IEC/IEEE 12207)"
+"sample bias","A type of bias where the dataset is not fully representative of the data 
+space to which ML is applied"
+"search algorithm","An algorithm that systematically visits a subset of all possible states or 
+structures until the goal state or structure is reached (After ISO/IEC TR 
+29119-11)"
+"self-learning system","An adaptive system that changes its behavior based on learning 
+through trial and error (After ISO/IEC TR 29119-11)"
+"silhouette coefficient","A clustering measure between -1 and +1 based on the average inter-
+cluster and intra-cluster differences 
+Synonym: silhouette score"
+"super AI","An artificial intelligence-based system that far exceeds human 
+capabilities"
+"supervised learning","Training an ML model from input data and its corresponding labels"
+"support vector machine 
+(SVM)","An ML technique in which the data points are viewed as vectors in 
+multi-dimensional space separated by a hyperplane"
+"technological singularity","A point in the future when technological advances are no longer 
+controllable by people (After ISO/IEC TR 29119-11)"
+"test oracle problem","The challenge of determining whether a test has passed or failed for a 
+given set of test inputs and state"
+"training dataset","A dataset used to train an ML model"
+"transfer learning","A technique for modifying a pre-trained ML model to perform a 
+different related task"
+"transparency","The level of visibility of the algorithm and data used by the AI-based 
+system (After ISO/IEC TR 29119-11)"
+"true negative (TN)","A prediction in which the model correctly predicts the negative class"
+"true positive (TP)","A prediction in which the model correctly predicts the positive class"

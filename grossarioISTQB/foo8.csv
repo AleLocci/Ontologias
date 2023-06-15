@@ -1,0 +1,31 @@
+"Term Name","Definition"
+"procedural reasoning","AI technology used for constructing real-time reasoning systems that 
+can perform complex tasks in dynamic environments"
+"random forest","Ensemble ML technology for classification, regression and other tasks 
+that operate by constructing and running many decision trees and then 
+either outputting the mode of the class or the mean prediction of the 
+individual trees"
+"reasoning technique","AI that generates conclusions from available information using logical 
+techniques (After ISO/IEC TR 29119-11)"
+"recall","An ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of actual positives that were predicted 
+correctly (After ISO/IEC TR 29119-11) 
+Synonym: sensitivity"
+"receiver operating 
+characteristic (ROC) curve","A graphical plot that illustrates the ability of a binary classifier as its 
+discrimination threshold is varied"
+"regression","A type of ML function that results in a numerical or continuous output 
+value for a given input (After ISO/IEC TR 29119-11)"
+"regression model","An ML model whose expected output for a given numeric input is a 
+continuous variable (After ISO/IEC DIS 23053)"
+"reinforcement learning","The activity of building an ML model using a process of trial and 
+reward to achieve an objective (After ISO/IEC TR 29119-11)"
+"reward function","A function that defines the success of reinforcement learning"
+"reward hacking","The activity performed by an intelligent agent to maximize its reward 
+function to the detriment of meeting the original objective (After 
+ISO/IEC TR 29119-11)"
+"R-squared","A statistical measure of how close the data points are to the fitted 
+regression line.  
+Synonym:  coefficient of determination"
+"rule engine","A set of rules that determine which actions should occur when certain 
+conditions are satisfied"

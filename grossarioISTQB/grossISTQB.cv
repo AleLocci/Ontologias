@@ -1,0 +1,278 @@
+"Term Name","Definition"
+"accuracy","The ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of predictions that were correct  
+(After ISO/IEC TR 29119-11)"
+"activation function","The formula associated with a neuron in a neural network that 
+determines the output of the neuron from the inputs to the neuron"
+"activation value","The output of an activation function of a neuron in a neural network"
+"adversarial attack","The deliberate use of adversarial examples to cause an ML model to 
+fail"
+"AI as a Service (AIaaS)","A software licensing and delivery model in which AI and AI 
+development services are centrally hosted"
+"AI component","A component that provides AI functionality"
+"AI effect","The  situation  when  a  previously labelled  AI  system is  no longer considered to be AI as technology advances (ISO/IEC TR 29119-11)"
+"AI-based system","A system that integrates one or more AI components"
+"AI-specific processor","A type of specialized hardware designed to accelerate AI applications"
+"algorithmic bias","A type of bias caused by the ML algorithm"
+"annotation","The activity of identifying objects in images with bounding boxes to 
+provide labelled data for classification"
+"area under curve (AUC)","A measure of how well a classifier can distinguish between two 
+classes."
+"artificial intelligence (AI)","The capability of an engineered system to acquire, process, create 
+and apply knowledge and skills (ISO/IEC TR 29119-11)"
+"association","An unsupervised learning technique that identifies relationships and 
+dependencies between samples"
+"augmentation","The activity of creating new data points based on an existing dataset"
+"automation bias","A type of bias caused by a person favoring the recommendations of an 
+automated decision-making system over other sources"
+"","Synonym: complacency bias"
+"autonomous system","A system capable of working without human intervention for sustained 
+periods"
+"autonomy","The  ability  of  a  system  to  work  for  sustained  periods  without  human 
+intervention (ISO/IEC TR 29119-11)"
+"Bayesian model","A statistical model that uses probability to represent the uncertainty of 
+both model inputs and outputs"
+"Bayesian technique","A technique that considers before and after probability distributions as 
+parameters of a statistical model"
+"bias","The systematic difference in treatment of certain objects, people or 
+groups in comparison to others (ISO/IEC DIS 22989)"
+"big data","Extensive datasets whose characteristics in terms of volume, variety, 
+velocity and/or variability require specialized technologies and 
+techniques to process"
+"case-based reasoning","The technique of solving a new problem based on the solutions of 
+similar past problems"
+"chatbot","An application used to conduct a conversation via text or text-to-
+speech"
+"classification","A type of ML function that predicts the output class for a given input 
+(After ISO/IEC TR 29119-11)"
+"classifier","An ML model used for classification 
+Synonym: classification model"
+"clustering","A type of ML function that groups similar data points together"
+"clustering algorithm","A type of ML algorithm used to group similar objects into clusters"
+"concept drift","A change in the perceived accuracy of an ML model predictions over 
+time caused by changes in user expectations, behavior and the 
+operational environment."
+"confusion matrix","A technique for summarizing the ML functional performance of a 
+classification algorithm"
+"data acquisition","The activity of acquiring data relevant to the business problem to be 
+solved by an ML model"
+"data labelling","The activity of adding meaningful tags to objects in raw data to support 
+classification in ML"
+"data pipeline","The implementation of data preparation activities to provide input data 
+to support training by an ML algorithm or prediction by an ML model"
+"data point","A set of one or more measurements comprising a single observation 
+used as part of a dataset"
+"data poisoning","The deliberate and malicious manipulation of training or input data to 
+an ML model"
+"data preparation","The activities of data acquisition, data pre-processing and feature 
+engineering in the ML workflow"
+"data pre-processing","The activities of data cleaning, data transformation, data 
+augmentation, and data sampling in the ML workflow"
+"data visualization","A technique for graphically representing data relationships, trends and 
+patterns"
+"dataset","A collection of data used for training, evaluation, testing and prediction 
+in ML"
+"decision threshold","A value that transforms the result of a prediction function into a binary 
+outcome of either above or below the value  
+Synonym: discrimination threshold"
+"decision tree","A tree-like ML model whose nodes represent decisions, and whose 
+branches represent possible outcomes"
+"deductive classifier","A classifier based on the application of inference and logic to input 
+data"
+"deep learning (DL)","ML using neural networks with multiple layers"
+"deep neural network","A neural network comprised of several layers of neurons 
+Synonym: multi-layer perceptron"
+"defect prediction","A technique to predict the areas within the test object in which defects 
+will occur or the quantity of defects that are present"
+"deterministic system","A system which will produce the same set of outputs and final state 
+from a given set of inputs and starting state"
+"edge computing","The part of a distributed architecture in which information processing is 
+performed close to where that information is used."
+"epoch","An iteration of ML training on the whole training dataset"
+"evolution","The process of continuous change from a lower, simpler, or worse 
+state to a higher, more complex, or better state"
+"expert system","An AI-based system for solving problems in a particular domain or 
+application area by drawing inferences from a knowledge base 
+developed from human expertise"
+"explainability","The level of understanding how the AI-based system came up with a 
+given result (ISO/IEC TR 29119-11)"
+"explainable AI (XAI)","The field of study related to understanding the factors that influence AI 
+system outputs"
+"exploratory data analysis 
+(EDA)","The interactive, hypothesis-driven and visual exploration of data used 
+to support feature engineering"
+"F1-Score","An ML functional performance metric used to evaluate a classifier 
+which provides a balance between recall and precision"
+"false negative (FN)","An ML model prediction in which the model mistakenly predicts the 
+negative class"
+"false positive (FP)","An ML model prediction in which the model mistakenly predicts the 
+positive class"
+"feature","An individual measurable attribute of the input data used for training by 
+an ML algorithm and for prediction by an ML model"
+"feature engineering","The activity in which those attributes in the raw data that best 
+represent the underlying relationships that should appear in the ML 
+model are identified for use in the training data (ISO/IEC TR 29119-11)"
+"flexibility","The ability of a system to work in contexts outside its initial 
+specification (After ISO/IEC TR 29119-11)"
+"fuzzy logic","A type of logic based on the concept of partial truth represented by 
+certainty factors between 0 and 1"
+"general AI","AI that exhibits intelligent behaviour comparable to a human across the 
+full range of cognitive abilities (ISO/IEC TR 29119-11) 
+Synonym: strong AI"
+"General Data Protection 
+Regulation (GDPR)","The European Union (EU) regulation on data protection and privacy 
+that applies to the data of citizens of the EU and the European 
+Economic Area"
+"graphical processing unit 
+(GPU)","An application-specific integrated circuit designed to manipulate and 
+alter memory to accelerate the creation of images in a frame buffer 
+intended for output to a display device"
+"ground truth","The information provided by direct observation and measurement that 
+is known to be real or true"
+"hyperparameter","A parameter used to either control the training of an ML model or to 
+set the configuration of an ML model"
+"hyperparameter tuning","The activity of determining the optimal hyperparameters based on 
+particular goals"
+"inappropriate bias","A type of bias that causes a system to produce results that lead to 
+adverse effects for a particular group"
+"intelligent agent","An autonomous program which directs its activity towards achieving 
+goals using observations and actions"
+"inter-cluster metric","A metric that measures the similarity of data points in different clusters"
+"interpretability","The level of understanding how the underlying AI technology works 
+(ISO/IEC TR 29119-11)"
+"intra-cluster metric","A metric that measures the similarity of data points within a cluster"
+"k-nearest neighbor","An approach to classification that estimates the likelihood of group 
+membership for a data point dependent on the group membership of 
+the data points nearest to it"
+"learning algorithm","A program that produces an ML model based on the properties of the 
+training dataset"
+"LIME method","The Local Interpretable Model-Agnostic Explanations program for 
+explaining the predictions from an ML model"
+"linear regression","A statistical technique that models the relationship between variables 
+by fitting a linear equation to the observed data when the target 
+variable is numeric"
+"logistic regression","A statistical technique that models the relationship between variables 
+when the target variable is categorical rather than numeric"
+"machine learning (ML)","The process using computational techniques to enable systems to 
+learn from data or experience (ISO/IEC TR 29119-11)"
+"mean square error (MSE)","The statistical measure of the average squared difference between the 
+estimated values and the actual value"
+"ML algorithm","An algorithm used to create an ML model from a training dataset"
+"ML benchmark suite","A dataset used to compare ML models and ML algorithms over a 
+range of evaluation metrics"
+"ML framework","A tool or library that supports the creation of an ML model"
+"ML function","Functionality implemented by an ML model, such as classification, 
+regression or clustering"
+"ML model evaluation","The process of comparing achieved ML functional performance 
+metrics with required criteria and those of other ML models"
+"ML model training","The process of applying the ML algorithm to the training dataset to 
+create an ML model"
+"ML model tuning","The process of testing hyperparameters to achieve optimum 
+performance"
+"ML system","A system that integrates one or more ML models"
+"ML workflow","A sequence of activities used to manage the development and 
+deployment of an ML model"
+"multi-agent system","A system that comprises multiple intelligent agents"
+"narrow AI","AI focused on a single well-defined task to address a specific problem 
+(ISO/IEC TR 29119-11)"
+"","Synonym: weak AI"
+"natural language 
+processing (NLP)","A field of computing that provides the ability to read, understand, and 
+derive meaning from natural languages"
+"neural network","A network of primitive processing elements connected by weighted 
+links with adjustable weights, in which each element produces a value 
+by applying a nonlinear function to its input values, and transmits it to 
+other elements or presents it as an output value (ISO/IEC 2382) 
+Synonym: artificial neural network"
+"neural network trojan","A vulnerability injected into a neural network using a data poisoning 
+attack with the intent of exploiting it later"
+"neuromorphic processor","An integrated circuit designed to mimic the biological neurons of the 
+human brain"
+"neuron","A node in a neural network, usually receiving multiple input values and 
+generating an activation value"
+"noise","A distortion or corruption in data"
+"non-deterministic system","A system which will not always produce the same set of outputs and 
+final state given a particular set of inputs and starting state"
+"outlier","An observation that lies outside the overall pattern of the data 
+distribution"
+"overfitting","The generation of an ML model that corresponds too closely to the 
+training dataset, resulting in a model that finds it difficult to generalize 
+to new data (After ISO/IEC TR 29119-11)"
+"perceptron","A neural network with just one layer and one neuron"
+"precision","An ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of predicted positives that were correct 
+(After ISO/IEC TR 29119-11)"
+"pre-trained model","An ML model already trained when it was obtained"
+"probabilistic system","A system whose behavior is described in terms of probabilities; hence 
+its outputs cannot be perfectly predicted"
+"procedural reasoning","AI technology used for constructing real-time reasoning systems that 
+can perform complex tasks in dynamic environments"
+"random forest","Ensemble ML technology for classification, regression and other tasks 
+that operate by constructing and running many decision trees and then 
+either outputting the mode of the class or the mean prediction of the 
+individual trees"
+"reasoning technique","AI that generates conclusions from available information using logical 
+techniques (After ISO/IEC TR 29119-11)"
+"recall","An ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of actual positives that were predicted 
+correctly (After ISO/IEC TR 29119-11) 
+Synonym: sensitivity"
+"receiver operating 
+characteristic (ROC) curve","A graphical plot that illustrates the ability of a binary classifier as its 
+discrimination threshold is varied"
+"regression","A type of ML function that results in a numerical or continuous output 
+value for a given input (After ISO/IEC TR 29119-11)"
+"regression model","An ML model whose expected output for a given numeric input is a 
+continuous variable (After ISO/IEC DIS 23053)"
+"reinforcement learning","The activity of building an ML model using a process of trial and 
+reward to achieve an objective (After ISO/IEC TR 29119-11)"
+"reward function","A function that defines the success of reinforcement learning"
+"reward hacking","The activity performed by an intelligent agent to maximize its reward 
+function to the detriment of meeting the original objective (After 
+ISO/IEC TR 29119-11)"
+"R-squared","A statistical measure of how close the data points are to the fitted 
+regression line.  
+Synonym:  coefficient of determination"
+"rule engine","A set of rules that determine which actions should occur when certain 
+conditions are satisfied"
+"safety","The expectation that a system does not, under defined conditions, lead 
+to a state in which human life, health, property, or the environment is 
+endangered (ISO/IEC/IEEE 12207)"
+"sample bias","A type of bias where the dataset is not fully representative of the data 
+space to which ML is applied"
+"search algorithm","An algorithm that systematically visits a subset of all possible states or 
+structures until the goal state or structure is reached (After ISO/IEC TR 
+29119-11)"
+"self-learning system","An adaptive system that changes its behavior based on learning 
+through trial and error (After ISO/IEC TR 29119-11)"
+"silhouette coefficient","A clustering measure between -1 and +1 based on the average inter-
+cluster and intra-cluster differences 
+Synonym: silhouette score"
+"super AI","An artificial intelligence-based system that far exceeds human 
+capabilities"
+"supervised learning","Training an ML model from input data and its corresponding labels"
+"support vector machine 
+(SVM)","An ML technique in which the data points are viewed as vectors in 
+multi-dimensional space separated by a hyperplane"
+"technological singularity","A point in the future when technological advances are no longer 
+controllable by people (After ISO/IEC TR 29119-11)"
+"test oracle problem","The challenge of determining whether a test has passed or failed for a 
+given set of test inputs and state"
+"training dataset","A dataset used to train an ML model"
+"transfer learning","A technique for modifying a pre-trained ML model to perform a 
+different related task"
+"transparency","The level of visibility of the algorithm and data used by the AI-based 
+system (After ISO/IEC TR 29119-11)"
+"true negative (TN)","A prediction in which the model correctly predicts the negative class"
+"true positive (TP)","A prediction in which the model correctly predicts the positive class"
+"underfitting","The generation of an ML model that does not reflect the underlying 
+trend of the training dataset, resulting in a model that finds it difficult to 
+make accurate predictions (ISO/IEC TR 29119-11)"
+"unsupervised learning","Training an ML model from input data using an unlabeled dataset"
+"validation dataset","A dataset used to evaluate a trained ML model with the purpose of 
+tuning the model"
+"von Neumann architecture","A computer architecture which consists of five main components: 
+memory, a central processing unit, a control unit, input and output"
+"weight","An internal variable of a connection between neurons in a neural 
+network that affects how it computes its outputs and that changes as 
+the neural network is trained"

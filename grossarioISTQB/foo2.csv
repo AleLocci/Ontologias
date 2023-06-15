@@ -1,0 +1,30 @@
+"Term Name","Definition"
+"","Synonym: complacency bias"
+"autonomous system","A system capable of working without human intervention for sustained 
+periods"
+"autonomy","The  ability  of  a  system  to  work  for  sustained  periods  without  human 
+intervention (ISO/IEC TR 29119-11)"
+"Bayesian model","A statistical model that uses probability to represent the uncertainty of 
+both model inputs and outputs"
+"Bayesian technique","A technique that considers before and after probability distributions as 
+parameters of a statistical model"
+"bias","The systematic difference in treatment of certain objects, people or 
+groups in comparison to others (ISO/IEC DIS 22989)"
+"big data","Extensive datasets whose characteristics in terms of volume, variety, 
+velocity and/or variability require specialized technologies and 
+techniques to process"
+"case-based reasoning","The technique of solving a new problem based on the solutions of 
+similar past problems"
+"chatbot","An application used to conduct a conversation via text or text-to-
+speech"
+"classification","A type of ML function that predicts the output class for a given input 
+(After ISO/IEC TR 29119-11)"
+"classifier","An ML model used for classification 
+Synonym: classification model"
+"clustering","A type of ML function that groups similar data points together"
+"clustering algorithm","A type of ML algorithm used to group similar objects into clusters"
+"concept drift","A change in the perceived accuracy of an ML model predictions over 
+time caused by changes in user expectations, behavior and the 
+operational environment."
+"confusion matrix","A technique for summarizing the ML functional performance of a 
+classification algorithm"

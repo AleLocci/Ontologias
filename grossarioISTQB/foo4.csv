@@ -1,0 +1,33 @@
+"Term Name","Definition"
+"defect prediction","A technique to predict the areas within the test object in which defects 
+will occur or the quantity of defects that are present"
+"deterministic system","A system which will produce the same set of outputs and final state 
+from a given set of inputs and starting state"
+"edge computing","The part of a distributed architecture in which information processing is 
+performed close to where that information is used."
+"epoch","An iteration of ML training on the whole training dataset"
+"evolution","The process of continuous change from a lower, simpler, or worse 
+state to a higher, more complex, or better state"
+"expert system","An AI-based system for solving problems in a particular domain or 
+application area by drawing inferences from a knowledge base 
+developed from human expertise"
+"explainability","The level of understanding how the AI-based system came up with a 
+given result (ISO/IEC TR 29119-11)"
+"explainable AI (XAI)","The field of study related to understanding the factors that influence AI 
+system outputs"
+"exploratory data analysis 
+(EDA)","The interactive, hypothesis-driven and visual exploration of data used 
+to support feature engineering"
+"F1-Score","An ML functional performance metric used to evaluate a classifier 
+which provides a balance between recall and precision"
+"false negative (FN)","An ML model prediction in which the model mistakenly predicts the 
+negative class"
+"false positive (FP)","An ML model prediction in which the model mistakenly predicts the 
+positive class"
+"feature","An individual measurable attribute of the input data used for training by 
+an ML algorithm and for prediction by an ML model"
+"feature engineering","The activity in which those attributes in the raw data that best 
+represent the underlying relationships that should appear in the ML 
+model are identified for use in the training data (ISO/IEC TR 29119-11)"
+"flexibility","The ability of a system to work in contexts outside its initial 
+specification (After ISO/IEC TR 29119-11)"

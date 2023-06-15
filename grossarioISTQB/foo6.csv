@@ -1,0 +1,30 @@
+"Term Name","Definition"
+"LIME method","The Local Interpretable Model-Agnostic Explanations program for 
+explaining the predictions from an ML model"
+"linear regression","A statistical technique that models the relationship between variables 
+by fitting a linear equation to the observed data when the target 
+variable is numeric"
+"logistic regression","A statistical technique that models the relationship between variables 
+when the target variable is categorical rather than numeric"
+"machine learning (ML)","The process using computational techniques to enable systems to 
+learn from data or experience (ISO/IEC TR 29119-11)"
+"mean square error (MSE)","The statistical measure of the average squared difference between the 
+estimated values and the actual value"
+"ML algorithm","An algorithm used to create an ML model from a training dataset"
+"ML benchmark suite","A dataset used to compare ML models and ML algorithms over a 
+range of evaluation metrics"
+"ML framework","A tool or library that supports the creation of an ML model"
+"ML function","Functionality implemented by an ML model, such as classification, 
+regression or clustering"
+"ML model evaluation","The process of comparing achieved ML functional performance 
+metrics with required criteria and those of other ML models"
+"ML model training","The process of applying the ML algorithm to the training dataset to 
+create an ML model"
+"ML model tuning","The process of testing hyperparameters to achieve optimum 
+performance"
+"ML system","A system that integrates one or more ML models"
+"ML workflow","A sequence of activities used to manage the development and 
+deployment of an ML model"
+"multi-agent system","A system that comprises multiple intelligent agents"
+"narrow AI","AI focused on a single well-defined task to address a specific problem 
+(ISO/IEC TR 29119-11)"

@@ -1,0 +1,33 @@
+"Term Name","Definition"
+"fuzzy logic","A type of logic based on the concept of partial truth represented by 
+certainty factors between 0 and 1"
+"general AI","AI that exhibits intelligent behaviour comparable to a human across the 
+full range of cognitive abilities (ISO/IEC TR 29119-11) 
+Synonym: strong AI"
+"General Data Protection 
+Regulation (GDPR)","The European Union (EU) regulation on data protection and privacy 
+that applies to the data of citizens of the EU and the European 
+Economic Area"
+"graphical processing unit 
+(GPU)","An application-specific integrated circuit designed to manipulate and 
+alter memory to accelerate the creation of images in a frame buffer 
+intended for output to a display device"
+"ground truth","The information provided by direct observation and measurement that 
+is known to be real or true"
+"hyperparameter","A parameter used to either control the training of an ML model or to 
+set the configuration of an ML model"
+"hyperparameter tuning","The activity of determining the optimal hyperparameters based on 
+particular goals"
+"inappropriate bias","A type of bias that causes a system to produce results that lead to 
+adverse effects for a particular group"
+"intelligent agent","An autonomous program which directs its activity towards achieving 
+goals using observations and actions"
+"inter-cluster metric","A metric that measures the similarity of data points in different clusters"
+"interpretability","The level of understanding how the underlying AI technology works 
+(ISO/IEC TR 29119-11)"
+"intra-cluster metric","A metric that measures the similarity of data points within a cluster"
+"k-nearest neighbor","An approach to classification that estimates the likelihood of group 
+membership for a data point dependent on the group membership of 
+the data points nearest to it"
+"learning algorithm","A program that produces an ML model based on the properties of the 
+training dataset"

@@ -1,0 +1,31 @@
+"Term Name","Definition"
+"accuracy","The ML functional performance metric used to evaluate a classifier, 
+which measures the proportion of predictions that were correct  
+(After ISO/IEC TR 29119-11)"
+"activation function","The formula associated with a neuron in a neural network that 
+determines the output of the neuron from the inputs to the neuron"
+"activation value","The output of an activation function of a neuron in a neural network"
+"adversarial attack","The deliberate use of adversarial examples to cause an ML model to 
+fail"
+"AI as a Service (AIaaS)","A software licensing and delivery model in which AI and AI 
+development services are centrally hosted"
+"AI component","A component that provides AI functionality"
+"AI effect","The  situation  when  a  previously 
+labelled  AI  system 
+is  no 
+longer 
+considered to be AI as technology advances (ISO/IEC TR 29119-11)"
+"AI-based system","A system that integrates one or more AI components"
+"AI-specific processor","A type of specialized hardware designed to accelerate AI applications"
+"algorithmic bias","A type of bias caused by the ML algorithm"
+"annotation","The activity of identifying objects in images with bounding boxes to 
+provide labelled data for classification"
+"area under curve (AUC)","A measure of how well a classifier can distinguish between two 
+classes."
+"artificial intelligence (AI)","The capability of an engineered system to acquire, process, create 
+and apply knowledge and skills (ISO/IEC TR 29119-11)"
+"association","An unsupervised learning technique that identifies relationships and 
+dependencies between samples"
+"augmentation","The activity of creating new data points based on an existing dataset"
+"automation bias","A type of bias caused by a person favoring the recommendations of an 
+automated decision-making system over other sources"

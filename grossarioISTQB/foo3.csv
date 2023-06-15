@@ -1,0 +1,29 @@
+"Term Name","Definition"
+"data acquisition","The activity of acquiring data relevant to the business problem to be 
+solved by an ML model"
+"data labelling","The activity of adding meaningful tags to objects in raw data to support 
+classification in ML"
+"data pipeline","The implementation of data preparation activities to provide input data 
+to support training by an ML algorithm or prediction by an ML model"
+"data point","A set of one or more measurements comprising a single observation 
+used as part of a dataset"
+"data poisoning","The deliberate and malicious manipulation of training or input data to 
+an ML model"
+"data preparation","The activities of data acquisition, data pre-processing and feature 
+engineering in the ML workflow"
+"data pre-processing","The activities of data cleaning, data transformation, data 
+augmentation, and data sampling in the ML workflow"
+"data visualization","A technique for graphically representing data relationships, trends and 
+patterns"
+"dataset","A collection of data used for training, evaluation, testing and prediction 
+in ML"
+"decision threshold","A value that transforms the result of a prediction function into a binary 
+outcome of either above or below the value  
+Synonym: discrimination threshold"
+"decision tree","A tree-like ML model whose nodes represent decisions, and whose 
+branches represent possible outcomes"
+"deductive classifier","A classifier based on the application of inference and logic to input 
+data"
+"deep learning (DL)","ML using neural networks with multiple layers"
+"deep neural network","A neural network comprised of several layers of neurons 
+Synonym: multi-layer perceptron"
